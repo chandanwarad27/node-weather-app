@@ -18,9 +18,9 @@ const forecast = (latitude, longitude, callback) => {
         body.current.weather_descriptions +
           "! It is currently " +
           body.current.temperature +
-          " degress out. It feels like " +
+          " degrees out. It feels like " +
           body.current.feelslike +
-          " degress out."
+          " degrees out."
       );
     }
   });
